@@ -1,0 +1,57 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #191919;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+th {
+  text-align: left;
+}
+
+button {
+  background-color: #b72d2d;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #b72d59;
+}
+
+button.default-button {
+  width: 100px;
+  height: 30px;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-radius: 14px;
+}
+
+button.pagination-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+input {
+  border: none;
+  width: 200px;
+  height: 30px;
+  margin-right: 8px;
+  margin-top: 22px;
+  padding-left: 10px;
+  border-radius: 14px;
+}
