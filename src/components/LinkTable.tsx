@@ -77,7 +77,7 @@ export const LinkTable = ({
                   <button
                     style={{
                       padding: "4px",
-                      borderRadius: "84x",
+                      borderRadius: "8px",
                     }}
                     onClick={() => handleCopy(link.short)}
                   >
