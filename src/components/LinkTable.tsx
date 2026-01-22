@@ -89,7 +89,15 @@ export const LinkTable = ({
                     {fullUrl}
                   </a>
                 </td>
-                <td>{link.target}</td>
+                <td
+                  style={{
+                    maxWidth: "400px",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  {link.target}
+                </td>
                 <td>{link.counter}</td>
               </tr>
             );
